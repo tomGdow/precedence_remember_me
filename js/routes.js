@@ -1,5 +1,5 @@
 function initPageOne () {
-  document.getElementById('header').innerHTML="eCollege (Remember Me)"
+  document.getElementById('header').innerHTML="Precedence of JavaScript Operators"
   makeRequest('./html/page_one.html', insertHTMLOne);
 }
 function initPageTwo() {
