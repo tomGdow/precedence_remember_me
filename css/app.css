@@ -1,0 +1,108 @@
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Covered By Your Grace', cursive;
+  color: #18836f;
+}
+
+p {
+  font-family: Consolas;
+  font-size: 1.2em;
+  margin-left: 4em;
+}
+
+p + p {
+  margin-left: 70px;
+}
+
+#question_box {
+  margin-bottom: 10px;
+}
+
+#plus_minus_button {
+  text-align: center;
+}
+
+#input_box, #advanced_search {
+  font-family: Consolas;
+  font-size: 1em;
+  margin-left: 1em;
+  margin-top: 20px;
+  width: 80%;
+  height: 3em;
+  padding-left: 10px;
+}
+
+button {
+  height: 3em;
+  width: 5em;
+  margin: 0;
+}
+
+#output {
+  margin-left: 5%;
+}
+
+label {
+  font-family: 'Covered By Your Grace', cursive;
+  color: #18836f;
+  font-size: 1.5em;
+  margin-left: 20px;
+}
+
+#input_container {
+  margin-bottom: 20px;
+}
+
+#snippets div {
+  font-family: Consolas;
+  font-size: 1em;
+  margin-left: 10%;
+  margin-bottom: 1em;
+}
+
+#navbar {
+  text-align: center;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 0.9em;
+}
+
+#navbar a {
+  margin-left: 1em;
+}
+
+.instructions, .instructions_header {
+  font-family: Consolas;
+  font-size: 1em;
+  margin-left: 10%;
+}
+
+.instructions_header {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+#log_container_header {
+  background-color: lightgoldenrodyellow;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-left: 30%;
+}
+
+.active {
+  background-color: lightgoldenrodyellow;
+}
+/*# sourceMappingURL=app.css.map */
