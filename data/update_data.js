@@ -1,6 +1,6 @@
 'use strict';
 // Basic Update Data
-const repoName="NOT YET KNOWN";
+const repoName="precedence_remember_me";
 const remoteFileDirectory="~/bin/jsdefinitions/operator-precedence-rememberme";
 const remoteFileName=remoteFileDirectory.split('/').pop();
 
