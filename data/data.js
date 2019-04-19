@@ -1,6 +1,6 @@
 'use strict';
 
-let data = ` 
+let data = `
 
   £(1)  Comma/Sequence 
 
@@ -23,7 +23,7 @@ let data = `
   [3]      +=     (addition assignment)          (R-to-L)
   [3]      -=     (subtraction assignment)       (R-to-L) 
   [3]      **=    (exponentiation assignment     (R-to-L)
-  [3]      *=     (left shift assignment)        (R-to-L)
+  [3]      *=     (multiplication assignment)    (R-to-L)
   [3]      /=     (division assignment)          (R-to-L)
   [3]      %=     (remainder assignment)         (R-to-L)
   [3]      <<=    (left shift assignment)        (R-to-L)
@@ -34,7 +34,7 @@ let data = `
   [3]      |=     (bitwise OR assignment)        (R-to-L)
  
   
-  £(4)  conditional (ternary operator)  
+  £(4)  Conditional (ternary operator)  
 
        1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20
              |
@@ -79,7 +79,7 @@ let data = `
  [10]  (L-to-R)          ====           (Strict Equality)     
  [10]  (L-to-R)          !==          (Strict Inequality)  
 
- £(11)  Less Than ...             
+ £(11)  Less than, Greater than ...             
 
        1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20
                             |
@@ -98,14 +98,14 @@ let data = `
                                              Right Shift)
 
 
- £(13)  Addition Subtraction             
+ £(13)  Addition, Subtraction             
 
        1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20
                                   |
  [13]  (L-to-R)                   +            (Addition)
  [13]  (L-to-R)                   -         (Subtraction)
 
- £(14)  Multiplication Division Remainder 
+ £(14)  Multiplication, Division, Remainder 
 
        1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20
                                      |
@@ -120,7 +120,7 @@ let data = `
  [15]  (Exponentiation)                 *         (R-to-L)  
  [15]                                                // !!
 
- £(16)  Logical NOT ...                        
+ £(16)  Unary Plus, Logical Not, Prefix ++/-- ... (#10)
 
        1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20
                                            |
@@ -154,7 +154,7 @@ let data = `
                                                     |
  [19]  (Member Access)                (L-to-R)      .  
  [19]  (Computed Member Access)       (L-to-R)      [...] 
- [19]  (New -with arg list)           (N/A)         new  
+ [19]  (New - with arg list)           (N/A)         new  
  [19]  (function call)                (L-to-R)      (...) 
 
  £(20)  Grouping              
@@ -162,6 +162,7 @@ let data = `
        1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20
                                                        |
  [20]                                          (N/A)   () 
+
 
 
 `; 
