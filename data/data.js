@@ -87,6 +87,8 @@ let data = `
  [11]  (L-to-R)             <=       (Less Than Or Equal)
  [11]  (L-to-R)             >              (Greater Than)
  [11]  (L-to-R)             >=    (Greater Than or Equal)
+ [11]  (L-to-R)             in   
+ [11]  (L-to-R)             instanceof
 
  £(12)  Bitwise Left Shift ...          
 
@@ -162,6 +164,5 @@ let data = `
        1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20
                                                        |
  [20]                                          (N/A)   () 
-
 
 `; 
